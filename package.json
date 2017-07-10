@@ -24,8 +24,9 @@
     "rimraf": "^2.5.4",
     "ts-node": "^3.0.2"
   },
-  "dependencies": {
-    "redux": "^3.5.2"
+  "dependencies": {},
+  "peerDependencies": {
+    "redux": "^3.7.1"
   },
   "scripts": {
     "release": "npm run build && npm version patch && npm publish",
